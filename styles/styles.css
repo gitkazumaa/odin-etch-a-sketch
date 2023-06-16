@@ -1,0 +1,29 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-container {
+    display: flex;
+    width: 800px;
+    height: 800px;
+}
+
+.square {
+    box-sizing: border-box;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.square-hover {
+    background-color:black;
+}
