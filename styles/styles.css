@@ -13,14 +13,21 @@ body {
 
 #grid-container {
     display: flex;
+    flex-direction: column;
     width: 800px;
     height: 800px;
 }
 
+.grid-row-container {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
 .square {
     box-sizing: border-box;
-    height: 50px;
-    width: 50px;
+    width: 100%;
+    height: 100%;
     background-color: white;
     border: 2px solid black;
 }
