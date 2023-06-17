@@ -11,7 +11,7 @@ body {
     align-items: center;
 }
 
-.grid-container {
+#grid-container {
     display: flex;
     width: 800px;
     height: 800px;
